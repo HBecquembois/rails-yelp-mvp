@@ -1,0 +1,9 @@
+<h1>All the restaurants</h1>
+
+<p>
+  <%= link_to "Want to add a new restaurant?", new_restaurant_path %>
+</p>
+
+<div>
+  <%= render "restaurants/list", restaurants: @restaurants %>
+</div>
